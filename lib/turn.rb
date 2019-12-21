@@ -1,10 +1,12 @@
 def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
+  
   def input_to_index(input)
     input.to_i - 1
   end
   index = input_to_index(input)
+
   def valid_move?(board, index)
     def position_taken?(board, index)
       if board[index] == "" || board[index] == " " || board[index] == nil
