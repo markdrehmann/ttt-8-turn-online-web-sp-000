@@ -3,6 +3,7 @@ def turn(board)
   input = gets.strip.to_i
   def input_to_index(input)
     index = input - 1
+  end
   def valid_move?(board, index)
     def position_taken?(board, index)
       if board[index] == "" || board[index] == " " || board[index] == nil
