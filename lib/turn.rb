@@ -16,7 +16,7 @@ def turn(board)
       false
     end
   end
-  
+
 end
 
 
